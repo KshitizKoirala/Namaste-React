@@ -2,6 +2,8 @@
   "name": "igniting-the-app",
   "version": "1.0.0",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -25,7 +27,7 @@
     "react-dom": "^18.3.1"
   },
   "browserslist": [
-    "last 2 Chrom version",
+    "last 2 Chrome version",
     "last 2 Firefox version",
     "cover 99.5% in US"
   ]
