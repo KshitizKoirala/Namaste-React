@@ -57,3 +57,30 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+.shimmer-card {
+  margin: 5rem 5px 5px 5px;
+  padding: 5px;
+  width: 220px;
+  height: 300px;
+  min-height: fit-content;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  margin-top: 15px;
+}
