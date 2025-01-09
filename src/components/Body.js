@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link } from "react-router";
 
 import Shimmer from "./Shimmer";
-import RestaurantCard from "./REstraurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestraurantCard";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 // import resList from "../utils/mockData";
 
@@ -13,14 +14,17 @@ const Body = () => {
 
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    fetchData();
-    console.log("UseEffect Called");
-  }, []);
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   // This will render first and then the JSX and then only the useEffect;
   // As useEffect's callback function is loaded after the component renders
-  console.log("Body Rendered");
+
+  console.log("Body Rendered", listOfRestaurants);
+
+  useEffect(() => {
+    fetchData();
+    // console.log("UseEffect Called");
+  }, []);
   // Whenever state variable updates, react triggers a reconcilitation cycle (re-rendering of the component)
 
   const fetchData = async () => {
@@ -52,20 +56,23 @@ const Body = () => {
     );
   }
 
+  const { setUserName, loggedInUser } = useContext(UserContext);
+
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="flex">
+        <div className="search p-4 m-4">
           <input
             type="text"
             placeholder="Search for restaurants"
-            className="search-box"
+            className="py-1 px-4 border border-solid border-gray-500"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
           <button
+            className="px-4 py-1 m-4 bg-green-200 rounded-md"
             onClick={() => {
               setFilteredRestaurant(
                 listOfRestaurants.filter((res) =>
@@ -79,26 +86,42 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={() => {
-            setFilteredRestaurant(
-              listOfRestaurants.filter((res) => res?.info?.avgRating > 4)
-            );
-            console.log("Button Clicked");
-          }}
-        >
-          {" "}
-          Top Rated Restaurant
-        </button>
+        <div className="search p-4 m-4 flex items-center rounded-lg">
+          <button
+            className="px-4 py-1 bg-gray-300 rounded-md"
+            onClick={() => {
+              setFilteredRestaurant(
+                listOfRestaurants.filter((res) => res?.info?.avgRating > 4)
+              );
+              console.log("Button Clicked");
+            }}
+          >
+            {" "}
+            Top Rated Restaurant
+          </button>
+        </div>
+
+        <div className="search p-4 m-4 flex items-center rounded-lg">
+          <label>UserName Changes Along with Context</label>
+          <input
+            className="border border-black p-1 rounded-lg"
+            value={loggedInUser}
+            onChange={(e) => setUserName(e.target.value)}
+          />
+        </div>
       </div>
-      <div className="res-container">
+      <div className="m-4 flex flex-wrap">
         {filteredRestaurant.map((restaurant) => (
           <Link
             to={"restaurant/" + restaurant?.info?.id}
             key={restaurant?.info?.id}
           >
-            <RestaurantCard resData={restaurant} />
+            {/* If a restaurant is promoted then add a promoted label to it. */}
+            {restaurant?.info?.promoted ? (
+              <RestaurantCardPromoted resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>

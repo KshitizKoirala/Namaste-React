@@ -2,6 +2,7 @@ import React from "react";
 
 import User from "./User";
 import UserClass from "./UserClass";
+import UserContext from "../utils/UserContext";
 
 class About extends React.Component {
   constructor(props) {
@@ -30,6 +31,13 @@ class About extends React.Component {
           committed to building applications that are not only functional but
           also beautiful.
         </p>
+        <UserContext.Consumer>
+          {({ loggedInUser }) => (
+            <h2 className="text-xl font-bold">
+              Data From Context in Class Based: {loggedInUser}
+            </h2>
+          )}
+        </UserContext.Consumer>
         {/* <User name={"John Doe"} /> */}
 
         {/* React will batch the componentDIdMount [COMMIT] phase of the lifecycle together
