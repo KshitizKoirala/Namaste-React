@@ -9,6 +9,9 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import Cart from "./components/CartPage";
 // import Grocery from "./components/Grocery";
 
 /**
@@ -41,18 +44,21 @@ const AppLayout = () => {
   }, []);
 
   return (
-    // Default Value of Context is used outside of the UserContext.Provider
-    // Provider allows the app to access the context value and perform Update
-    <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-      {/* Kshitiz Koirala as context value */}
-      <div className="app">
-        <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}>
-          {/* Elon Musk as context value */}
-          <Header />
-        </UserContext.Provider>
-        <Outlet />
-      </div>
-    </UserContext.Provider>
+    // Redux Provider
+    <Provider store={appStore}>
+      {/* // Default Value of Context is used outside of the UserContext.Provider
+        // Provider allows the app to access the context value and perform Update */}
+      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+        {/* Kshitiz Koirala as context value */}
+        <div className="app">
+          <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}>
+            {/* Elon Musk as context value */}
+            <Header />
+          </UserContext.Provider>
+          <Outlet />
+        </div>
+      </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -80,6 +86,7 @@ const appRouter = createBrowserRouter([
         ),
       },
       { path: "/restaurant/:resId", element: <RestaurantMenu /> },
+      { path: "/cart", element: <Cart /> },
     ],
     errorElement: <Error />,
   },

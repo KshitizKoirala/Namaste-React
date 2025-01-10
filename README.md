@@ -36,3 +36,12 @@
 
 - Client Side Routing -> Single Page Application where only the components change
 - Server Side Routing -> Network call made to server to change pages
+
+# REDUX TOOLKIT
+
+- Install @reduxjs/toolkit, react-redux
+- Build our store
+- Connect our store to our app
+- Create a Slice (cartSlice)
+- dispatch (action)
+- Selector
