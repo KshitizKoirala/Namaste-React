@@ -9,6 +9,7 @@ const styleCard = {
 const RestaurantCard = (props) => {
   //   console.log(props);
   const { resData } = props;
+  // console.log(resData);
   const { loggedInUser } = useContext(UserContext);
 
   const { name, cuisines, avgRating, costForTwo, cloudinaryImageId, sla } =
@@ -16,6 +17,7 @@ const RestaurantCard = (props) => {
 
   return (
     <div
+      data-testid="resCard"
       className="m-4 p-4 w-[230px] h-[500px] rounded-md bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
       // style={styleCard}
     >

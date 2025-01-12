@@ -1,0 +1,53 @@
+{
+  "info": {
+    "id": "974819",
+    "name": "Qureshi Kitchen",
+    "city": "1",
+    "slugs": {
+      "restaurant": "qureshi-kitchen-hsr-hsr"
+    },
+    "promoted": true,
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/18/6225974b-b2d9-4604-b173-31c3f7380849_974819.jpg",
+    "locality": "HSR",
+    "areaName": "HSR",
+    "costForTwo": "₹499 for two",
+    "cuisines": ["Tandoor"],
+    "avgRating": 3.4,
+    "feeDetails": {
+      "restaurantId": "974819",
+      "title": "Delivery Charge",
+      "amount": "0"
+    },
+    "totalRatingsString": "3",
+    "sla": {
+      "deliveryTime": 32,
+      "minDeliveryTime": 30,
+      "maxDeliveryTime": 35,
+      "serviceability": "SERVICEABLE",
+      "slaString": "30-35 MINS",
+      "lastMileTravelString": "4.7 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2025-01-12 23:55:00",
+      "opened": true
+    },
+    "badges": {},
+    "aggregatedDiscountInfoV3": {
+      "header": "₹125 OFF",
+      "subHeader": "ABOVE ₹249",
+      "discountTag": "FLAT DEAL",
+      "logoCtx": {
+        "text": "BENEFITS"
+      }
+    },
+    "externalRatings": {
+      "aggregatedRating": {
+        "rating": "--"
+      }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {},
+  "cta": {}
+}

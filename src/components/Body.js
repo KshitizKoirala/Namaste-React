@@ -19,7 +19,7 @@ const Body = () => {
   // This will render first and then the JSX and then only the useEffect;
   // As useEffect's callback function is loaded after the component renders
 
-  console.log("Body Rendered", listOfRestaurants);
+  // console.log("Body Rendered", listOfRestaurants);
 
   useEffect(() => {
     fetchData();
@@ -65,9 +65,10 @@ const Body = () => {
       <div className="flex">
         <div className="search p-4 m-4">
           <input
+            data-testid="searchInput"
             type="text"
             placeholder="Search for restaurants"
-            className="py-1 px-4 border border-solid border-gray-500"
+            className="py-1 px-4 border border-solid border-gray-500 active:border-gray-100"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
@@ -93,11 +94,9 @@ const Body = () => {
               setFilteredRestaurant(
                 listOfRestaurants.filter((res) => res?.info?.avgRating > 4)
               );
-              console.log("Button Clicked");
             }}
           >
-            {" "}
-            Top Rated Restaurant
+            Top Rated Restaurants
           </button>
         </div>
 

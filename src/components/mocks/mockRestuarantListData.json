@@ -1,0 +1,2987 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.Navigation",
+            "tab": [
+              {
+                "id": "RESTAURANT",
+                "title": "Restaurants",
+                "selected": true,
+                "analytics": {
+                  "screenName": "explore",
+                  "context": "{\"tid\":\"0ec545e5-0b43-91df-6d83-a8f304af1df5\",\"query\":\"Meghana Foods\"}",
+                  "objectValue": "RESTAURANT",
+                  "clickObjectName": "click-tab"
+                },
+                "selectedBgColor": "#1B1E24",
+                "unselectedBgColor": "#FFFFFF",
+                "selectedTextColor": "#BFFFFFFF",
+                "unselectedTextColor": "#9902060C",
+                "selectedBorderColor": "#1B1E24",
+                "unselectedBorderColor": "#E2E2E7"
+              },
+              {
+                "id": "DISH",
+                "title": "Dishes",
+                "analytics": {
+                  "screenName": "explore",
+                  "context": "{\"tid\":\"0ec545e5-0b43-91df-6d83-a8f304af1df5\",\"query\":\"Meghana Foods\"}",
+                  "objectValue": "DISH",
+                  "clickObjectName": "click-tab"
+                },
+                "selectedBgColor": "#1B1E24",
+                "unselectedBgColor": "#FFFFFF",
+                "selectedTextColor": "#BFFFFFFF",
+                "unselectedTextColor": "#9902060C",
+                "selectedBorderColor": "#1B1E24",
+                "unselectedBorderColor": "#E2E2E7"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "RESTAURANT": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "229",
+                        "name": "Meghana Foods",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "meghana-foods-5th-block-koramangala",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "xqwpuhgnsaf18te7zvtv",
+                        "address": "124, 1st A Cross Rd, Near Jyoti Nivas College Road, Khb Colony, 5Th Block, Koramangala, Bengaluru, Karnataka 560095",
+                        "locality": "Koramangala",
+                        "areaName": "Koramangala",
+                        "costForTwo": "50000",
+                        "costForTwoMessage": "₹500 FOR TWO",
+                        "cuisines": [
+                          "Biryani",
+                          "Andhra",
+                          "South Indian",
+                          "Chinese",
+                          "Seafood"
+                        ],
+                        "avgRating": 4.6,
+                        "feeDetails": {},
+                        "avgRatingString": "4.6",
+                        "totalRatingsString": "180K+",
+                        "sla": {
+                          "deliveryTime": 39,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 1.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "1.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                              "description": "bolt!"
+                            },
+                            {
+                              "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                              "description": "Delivery!"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.3",
+                            "ratingCount": "20K+"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {}
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"0ec545e5-0b43-91df-6d83-a8f304af1df5\",\"grid\":\"ad9d6534-b8ce-4b4d-ad18-35c8909b542b\",\"queryUniqueId\":\"9c272744-5988-8cc7-b8e1-172fe494ef27\",\"query\":\"Meghana Foods\"}",
+                        "objectValue": "229",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "false",
+                          "sourceRequestId": "4fff32d1c1c96edc09cac6655ae617ec",
+                          "restaurant_id": "229",
+                          "query": "Meghana Foods",
+                          "sourceSessionId": "ibs5fdc8-f664-4abb-980d-7a1677fec3b1",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantCollection",
+                      "title": "More results like this",
+                      "restaurants": [
+                        {
+                          "info": {
+                            "id": "18973",
+                            "name": "Nandhana Palace",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "nandhana-palace-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/21/c16228db-0f86-484e-b3b4-2fb707f22b76_18973.jpg",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Andhra",
+                              "South Indian",
+                              "North Indian"
+                            ],
+                            "avgRating": 4.4,
+                            "feeDetails": {
+                              "restaurantId": "18973",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "38K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=23835489~p=0~adgrpid=23835489#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=18973~st=meghana foods~eid=6076863e-2888-4693-a732-af873f919a5d~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 25,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "0.5 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 02:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {
+                              "imageBadges": [
+                                {
+                                  "imageId": "Rxawards/_CATEGORY-Andhra.png",
+                                  "description": "Delivery!"
+                                }
+                              ]
+                            },
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "4.3",
+                                "ratingCount": "8.5K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23835489"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "108097",
+                            "name": "Ambur Star Briyani Since 1890",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "ambur-star-briyani-btm-2"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/12/bee2f2d5-6a39-477a-b669-c9df142ed5d0_108097.jpg",
+                            "locality": "2nd Stage",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chettinad",
+                              "Andhra",
+                              "Beverages",
+                              "Seafood"
+                            ],
+                            "avgRating": 4.4,
+                            "feeDetails": {
+                              "restaurantId": "108097",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "21K+",
+                            "sla": {
+                              "deliveryTime": 29,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "3.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {
+                              "textExtendedBadges": [
+                                {
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available",
+                                  "fontColor": "#7E808C"
+                                }
+                              ]
+                            },
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "31627",
+                            "name": "Hyderabad Biryaani House",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hyderabad-biryaani-house-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "r87wnsjxzu9ysekmniju",
+                            "locality": "7th Block",
+                            "areaName": "KHB Colony",
+                            "costForTwo": "₹350 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "North Indian",
+                              "Chinese",
+                              "Tandoor"
+                            ],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "31627",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "31K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=23835545~p=2~adgrpid=23835545#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=31627~st=meghana foods~eid=9e205596-13df-46f3-81d3-af1edcff2e54~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 35,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "1.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "₹100 OFF",
+                              "subHeader": "ABOVE ₹549",
+                              "discountTag": "FLAT DEAL",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "4.1",
+                                "ratingCount": "3.1K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23835545"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "1017910",
+                            "name": "MEGHANA BIRYANI",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "meghana-biryani-btm-btm-2"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/29/c0c9608f-8cf2-4d4a-8afc-9f66b966de9c_1017910.jpg",
+                            "locality": "BTM",
+                            "areaName": "BTM",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": [
+                              "Andhra",
+                              "Biryani",
+                              "Hyderabadi",
+                              "Indian"
+                            ],
+                            "avgRating": 3.7,
+                            "feeDetails": {
+                              "restaurantId": "1017910",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "49",
+                            "sla": {
+                              "deliveryTime": 30,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "3.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 05:01:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "880372",
+                            "name": "Local Heros",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "local-heros-kasturinagar---archived-kasturinagar---archived"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/28/e273ea47-3666-4a5c-950f-86cf8dba0119_880372.ss.jpg",
+                            "locality": "KR Garden",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹399 for two",
+                            "cuisines": ["Biryani", "Kebabs"],
+                            "avgRating": 4.6,
+                            "feeDetails": {
+                              "restaurantId": "880372",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "351",
+                            "promoted": true,
+                            "adTrackingId": "cid=23640749~p=4~adgrpid=23640749#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=880372~st=meghana foods~eid=d46597cd-3331-49bf-814e-da397906b1ba~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 24,
+                              "minDeliveryTime": 20,
+                              "maxDeliveryTime": 25,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "20-25 MINS",
+                              "lastMileTravelString": "1.8 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "subHeader": "UPTO ₹75",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23640749"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "537139",
+                            "name": "Narmada Chain of Restaurant",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "narmada-group-of-hotels-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "gmcud4kfjsy2kf2bbrme",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": ["Biryani", "Andhra", "South Indian"],
+                            "avgRating": 4.5,
+                            "feeDetails": {
+                              "restaurantId": "537139",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                              "deliveryTime": 39,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "0.9 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 02:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹199",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "4.4",
+                                "ratingCount": "2.0K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "940331",
+                            "name": "Malty Manor",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "malty-manor-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/20/b7ec04dc-dd02-49e5-a00e-4773ba13d7d3_940331.jpg",
+                            "locality": "Lotus Square",
+                            "areaName": "HSR",
+                            "costForTwo": "₹1200 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Continental",
+                              "Indian",
+                              "Tandoor",
+                              "Pizzas",
+                              "Pastas",
+                              "Barbecue",
+                              "North Eastern",
+                              "Fast Food"
+                            ],
+                            "avgRating": 3.9,
+                            "feeDetails": {
+                              "restaurantId": "940331",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "38",
+                            "promoted": true,
+                            "adTrackingId": "cid=23664410~p=8~adgrpid=23664410#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=940331~st=meghana foods~eid=c00255c8-5159-4fd8-a08a-a20d4d412835~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 36,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "4.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 00:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "subHeader": "UPTO ₹150",
+                              "discountTag": "SAVE BIG",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23664410"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "705624",
+                            "name": "Aromas of Biryani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "aromas-of-biryani-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "7d83016d319aebcb90ac3c9c106987a3",
+                            "locality": "S T Bed Extension",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹600 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "North Indian",
+                              "Tandoor",
+                              "Beverages"
+                            ],
+                            "avgRating": 4.3,
+                            "feeDetails": {
+                              "restaurantId": "705624",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "1.5K+",
+                            "sla": {
+                              "deliveryTime": 26,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "1.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 01:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹139",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "4.5",
+                                "ratingCount": "503"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "415042",
+                            "name": "Royal Biryani Kitchen",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "royal-biryani-kitchen-btm-btm-2"
+                            },
+                            "cloudinaryImageId": "rze3ha5v1jced9951x0b",
+                            "locality": "1st  Stage",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chinese",
+                              "Tandoor",
+                              "Snacks",
+                              "Mughlai"
+                            ],
+                            "avgRating": 3.3,
+                            "feeDetails": {
+                              "restaurantId": "415042",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "2.3K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=23813648~p=9~adgrpid=23813648#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=415042~st=meghana foods~eid=ebf96784-7226-4047-a87c-87355f062b55~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 33,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "2.8 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹79",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23813648"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "292770",
+                            "name": "Charminar Biryani House",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "charminar\tbiriyani\thouse-btm-btm"
+                            },
+                            "cloudinaryImageId": "l8z0w7mrwwlkky0tumgv",
+                            "locality": "1st  Stage",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": ["Biryani"],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "292770",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "4.2K+",
+                            "sla": {
+                              "deliveryTime": 34,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "4.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {
+                              "textExtendedBadges": [
+                                {
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available",
+                                  "fontColor": "#7E808C"
+                                }
+                              ]
+                            },
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "discountTag": "FLAT DEAL",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "800493",
+                            "name": "Mangalore Thali",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "mangalore-thali-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "8a713d33ef4311eded82968675bc37c4",
+                            "locality": "Thamarai Nagar",
+                            "areaName": "HSR",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["Indian"],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "800493",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "21",
+                            "promoted": true,
+                            "adTrackingId": "cid=23720009~p=10~adgrpid=23720009#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=800493~st=meghana foods~eid=2135e607-af69-4313-900e-0bb5660ca12f~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 38,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "3.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23720009"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "310",
+                            "name": "Gongura Grand",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "gongura-s-sector-7-hsr"
+                            },
+                            "cloudinaryImageId": "c0594f79925162e17a6fbd1f5ce5eab6",
+                            "locality": "BTM Layout",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chinese",
+                              "Andhra",
+                              "Tandoor"
+                            ],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "310",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "38K+",
+                            "sla": {
+                              "deliveryTime": 29,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "2.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {
+                              "textExtendedBadges": [
+                                {
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available",
+                                  "fontColor": "#7E808C"
+                                }
+                              ]
+                            },
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.8",
+                                "ratingCount": "288"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "1018371",
+                            "name": "Tadipatri Dhum Biryani Family Restaurants",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "tadipatri-dhum-biryani-family-restaurants-koramangala-koramangala"
+                            },
+                            "locality": "BTM Layout",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                              "Chinese",
+                              "Andhra",
+                              "Biryani",
+                              "Indian",
+                              "Kebabs"
+                            ],
+                            "feeDetails": {
+                              "restaurantId": "1018371",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "promoted": true,
+                            "adTrackingId": "cid=23634367~p=11~adgrpid=23634367#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=1018371~st=meghana foods~eid=69135c68-fa1a-4be0-98a7-32c4a3f111d4~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 27,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "1.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23634367"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "428",
+                            "name": "Biryani Pot ",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "biryani-pot-madiwala-junction-btm"
+                            },
+                            "cloudinaryImageId": "mdipoyzfzsa7n7igskht",
+                            "locality": "BTM Layout",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": ["Biryani"],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "428",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "45K+",
+                            "sla": {
+                              "deliveryTime": 28,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "2.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 03:00:00",
+                              "opened": true
+                            },
+                            "badges": {
+                              "textExtendedBadges": [
+                                {
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available",
+                                  "fontColor": "#7E808C"
+                                }
+                              ]
+                            },
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.5",
+                                "ratingCount": "534"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "496423",
+                            "name": "Dum Biryani Hub",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "dum-biryani-hub-btm-btm"
+                            },
+                            "cloudinaryImageId": "dzfnv4xnrfnchnmnffyd",
+                            "locality": "BTM Layout",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹450 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chinese",
+                              "Desserts",
+                              "Beverages"
+                            ],
+                            "avgRating": 3.4,
+                            "feeDetails": {
+                              "restaurantId": "496423",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "2.8K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=23813650~p=12~adgrpid=23813650#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=496423~st=meghana foods~eid=07836290-becf-45b5-817b-187c1e2c468d~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 39,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "2.8 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹75",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23813650"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "539442",
+                            "name": "INDUS FAMILY RESTAURANT",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "indus-family-restaurant-btm-btm"
+                            },
+                            "cloudinaryImageId": "pajnqiil97fzqq641pt6",
+                            "locality": "BTM Layout",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["Snacks", "Indian", "Biryani"],
+                            "avgRating": 4.6,
+                            "feeDetails": {
+                              "restaurantId": "539442",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "563",
+                            "sla": {
+                              "deliveryTime": 32,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "3.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "4.0",
+                                "ratingCount": "1.7K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "495055",
+                            "name": "Afghani Tandoori Hub",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "afghani-tandoori-hub-btm-btm"
+                            },
+                            "cloudinaryImageId": "s2guefjyf6zplthuzkzg",
+                            "locality": "BTM Layout",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": ["Biryani", "Chinese", "Snacks"],
+                            "avgRating": 3.4,
+                            "feeDetails": {
+                              "restaurantId": "495055",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "3.6K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=23813649~p=13~adgrpid=23813649#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=495055~st=meghana foods~eid=d087784b-d1cb-4153-92a8-2e2b40eb87a0~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 40,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "2.8 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹79",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "1.5",
+                                "ratingCount": "68"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23813649"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "654965",
+                            "name": "Hyderabadi Biryani Hub",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hyderabadi-biryani-hub-btm-btm"
+                            },
+                            "cloudinaryImageId": "a79403b3daea9a1ede0a7b1ec36bc943",
+                            "locality": "BTM Layout",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Indian",
+                              "Chinese",
+                              "Snacks",
+                              "Fast Food",
+                              "Beverages"
+                            ],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "654965",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "1.0K+",
+                            "sla": {
+                              "deliveryTime": 29,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "2.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.5",
+                                "ratingCount": "346"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "695249",
+                            "name": "Feast King",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "feast-king-btm-btm"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/24/852af2a7-d3f2-4f27-aebf-11768e69aa65_695249.jpg",
+                            "locality": "Behind Mahindra Showroom.",
+                            "areaName": "Bommanahalli",
+                            "costForTwo": "₹280 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chinese",
+                              "North Indian",
+                              "Beverages"
+                            ],
+                            "avgRating": 3.2,
+                            "feeDetails": {
+                              "restaurantId": "695249",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "15",
+                            "promoted": true,
+                            "adTrackingId": "cid=23512908~p=15~adgrpid=23512908#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=695249~st=meghana foods~eid=bc4e54e6-26a2-43f5-96a8-34b8dba7b0b6~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 42,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "3.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:45:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23512908"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "1371",
+                            "name": "Hotel Savitha Family Restaurant",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hotel-savitha-family-restaurant-4th-block-koramangala"
+                            },
+                            "cloudinaryImageId": "711abd2480bd9338518a25e3f1643ace",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹499 for two",
+                            "cuisines": [
+                              "South Indian",
+                              "Biryani",
+                              "Chinese",
+                              "Indian",
+                              "Tandoor",
+                              "Beverages"
+                            ],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "1371",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "63K+",
+                            "sla": {
+                              "deliveryTime": 24,
+                              "minDeliveryTime": 20,
+                              "maxDeliveryTime": 25,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "20-25 MINS",
+                              "lastMileTravelString": "0.8 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 00:45:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.7",
+                                "ratingCount": "1.8K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "1009311",
+                            "name": "Meghanasbiryani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "meghanasbiryani-btm-btm"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/15/d608970a-1ea2-4057-b8fa-e868299f19dd_1009311.JPG",
+                            "locality": "Munireddy Layout",
+                            "areaName": "BTM",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["South Indian", "Indian"],
+                            "feeDetails": {
+                              "restaurantId": "1009311",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "promoted": true,
+                            "adTrackingId": "cid=23619288~p=17~adgrpid=23619288#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=1009311~st=meghana foods~eid=e4f0c279-29be-43d9-9d3b-79eda48ab651~srvts=1736680030335~collid=56861",
+                            "sla": {
+                              "deliveryTime": 30,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "1.8 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-19 00:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "₹250 OFF",
+                              "subHeader": "ABOVE ₹999",
+                              "discountTag": "FLAT DEAL",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "23619288"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "231499",
+                            "name": "Biryani Crafts",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "biryani-crafts-btm-btm"
+                            },
+                            "cloudinaryImageId": "rvyc91uo0b9isxlh4165",
+                            "locality": "1st  Stage",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chinese",
+                              "Tandoor",
+                              "Indian"
+                            ],
+                            "avgRating": 4,
+                            "feeDetails": {
+                              "restaurantId": "231499",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "2.6K+",
+                            "sla": {
+                              "deliveryTime": 35,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "4.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "discountTag": "FLAT DEAL",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "14837",
+                            "name": "High Street",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "high-street-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "qqwbp7qd3ujocqjhqxvt",
+                            "locality": "HSR Layout",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "North Indian",
+                              "Tandoor",
+                              "Hyderabadi",
+                              "Andhra",
+                              "Chinese"
+                            ],
+                            "avgRating": 4.3,
+                            "feeDetails": {
+                              "restaurantId": "14837",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "73K+",
+                            "sla": {
+                              "deliveryTime": 41,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "20% OFF",
+                              "subHeader": "UPTO ₹100",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "4.1",
+                                "ratingCount": "9.6K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "107436",
+                            "name": "Hotel Navya foods",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hotel-navya-foods-sg-palya-btm"
+                            },
+                            "cloudinaryImageId": "g2oz9gm1r1g8galzlwkx",
+                            "locality": "SG Palya",
+                            "areaName": "Tavarekere",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": ["Chinese", "Tandoor"],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "107436",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "625",
+                            "sla": {
+                              "deliveryTime": 29,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "3.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 22:50:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "790372",
+                            "name": "Mr Biriyani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "mr-biriyani-btm-btm"
+                            },
+                            "cloudinaryImageId": "f594f4f63d3e00e93203f02d40e38d24",
+                            "locality": "Madiwala",
+                            "areaName": "BTM",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": ["Biryani", "Chinese"],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "790372",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "375",
+                            "sla": {
+                              "deliveryTime": 27,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "2.3 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "304603",
+                            "name": "Kabali Biryani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "kabali-biryani-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/543e3bd4-c135-4ba1-9362-9cfeee58178a_304603.jpg",
+                            "locality": "3rd Block",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Combo",
+                              "Desserts",
+                              "Indian",
+                              "South Indian"
+                            ],
+                            "avgRating": 4.3,
+                            "feeDetails": {
+                              "restaurantId": "304603",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "872",
+                            "sla": {
+                              "deliveryTime": 31,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "1.9 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:30:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "10% OFF",
+                              "subHeader": "UPTO ₹40",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "32729",
+                            "name": "Tandoori Merchant",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "tandoori-merchant-btm-btm"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/27/6a15f348-845f-47be-b46e-75e67caaab33_32729.ss.jpg",
+                            "locality": "Madiwala",
+                            "areaName": "Btm Layout",
+                            "costForTwo": "₹100 for two",
+                            "cuisines": [
+                              "Andhra",
+                              "Biryani",
+                              "Chinese",
+                              "Desserts",
+                              "Seafood",
+                              "South Indian"
+                            ],
+                            "avgRating": 4.3,
+                            "feeDetails": {
+                              "restaurantId": "32729",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "15K+",
+                            "sla": {
+                              "deliveryTime": 32,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "2.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 03:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "693069",
+                            "name": "Grand Wedding Biryani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "grand-wedding-biryani-btm-btm"
+                            },
+                            "cloudinaryImageId": "50c9129f88b32a2ff3be4e760c1f1ce7",
+                            "locality": "2nd Stage",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹450 for two",
+                            "cuisines": ["Biryani"],
+                            "avgRating": 4,
+                            "feeDetails": {
+                              "restaurantId": "693069",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "548",
+                            "sla": {
+                              "deliveryTime": 36,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "3.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 01:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "481146",
+                            "name": "Biryani Buckets",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "biryani-buckets-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/17/5644e0a4-1738-4cff-9b81-6b9498882d7a_481146.jpg",
+                            "locality": "HSR Layout",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": ["Biryani", "North Indian", "Tandoor"],
+                            "avgRating": 3.6,
+                            "feeDetails": {
+                              "restaurantId": "481146",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "48",
+                            "sla": {
+                              "deliveryTime": 45,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 00:30:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹49",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.7",
+                                "ratingCount": "25"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "588731",
+                            "name": "Noons Kitchen",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "noons-kitchen-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "exbughrps2j2ecfflzjl",
+                            "locality": "7th Sector",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹600 for two",
+                            "cuisines": ["Biryani", "Sweets", "Kebabs"],
+                            "avgRating": 4.3,
+                            "feeDetails": {
+                              "restaurantId": "588731",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "269",
+                            "sla": {
+                              "deliveryTime": 37,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "4.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "790280",
+                            "name": "Vani's hyderabadi Biryani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "vani's-hyderabadi-biryani-btm-btm"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/2/75bc95e9-6110-4ba6-9ae1-47829aefa7ff_790280 (1).jpg",
+                            "locality": "16th Main Road",
+                            "areaName": "BTM",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Chinese",
+                              "Kebabs",
+                              "Seafood"
+                            ],
+                            "avgRating": 4,
+                            "feeDetails": {
+                              "restaurantId": "790280",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "77",
+                            "sla": {
+                              "deliveryTime": 34,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "4.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "discountTag": "FLAT DEAL",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "959074",
+                            "name": "Bangalore Food Paradise Non-Veg",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "bangalore-food-paradise-non-veg-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/19/509ef79a-18ca-4d6b-9df9-7bc484ec4e43_959074.jpg",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹600 for two",
+                            "cuisines": ["Chinese", "Biryani"],
+                            "avgRating": 4.6,
+                            "feeDetails": {
+                              "restaurantId": "959074",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "4",
+                            "sla": {
+                              "deliveryTime": 31,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "0.5 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "957933",
+                            "name": "Donne Biryani Palace",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "donne-biryani-palace-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/21/bbaf3af2-8e39-4238-a182-cd137ce9e8ee_957933.jpg",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹700 for two",
+                            "cuisines": ["Biryani"],
+                            "avgRating": 4,
+                            "feeDetails": {
+                              "restaurantId": "957933",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "13",
+                            "sla": {
+                              "deliveryTime": 29,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "0.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:45:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "10% OFF",
+                              "subHeader": "UPTO ₹40",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "984101",
+                            "name": "Soofiyana Mandi Restaurant",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "soofiyana-mandi-restaurant-btm-btm"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/31/81f8a650-4048-47b3-b8b6-fb61177e6c2a_984101.jpg",
+                            "locality": "POPULAR COOLONY BOMMANHALLI",
+                            "areaName": "BOMMANHALLI",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": ["Biryani", "Kebabs"],
+                            "avgRating": 1.5,
+                            "feeDetails": {
+                              "restaurantId": "984101",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "2",
+                            "sla": {
+                              "deliveryTime": 42,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-19 00:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "375047",
+                            "name": "Biryani Trip - Destination Hyderabad",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "biryani-trip-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "v4iq8hgxizoqfxogkg7j",
+                            "locality": "6th Block",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": ["Biryani", "Hyderabadi", "Indian"],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "375047",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "632",
+                            "sla": {
+                              "deliveryTime": 27,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "0.3 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 01:00:00",
+                              "opened": true
+                            },
+                            "badges": {
+                              "textExtendedBadges": [
+                                {
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available",
+                                  "fontColor": "#7E808C"
+                                }
+                              ]
+                            },
+                            "aggregatedDiscountInfoV3": {
+                              "header": "ITEMS",
+                              "subHeader": "AT ₹299",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "909837",
+                            "name": "MNC - Mysore Naati Cafe",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "mysore-naati-cafe-indiranagar-indiranagar"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/15/664849f5-a4f0-4eaf-9106-6afbb6c88a29_909837.jpg",
+                            "locality": "Bda Complex",
+                            "areaName": "Indiranagar",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "South Indian",
+                              "Kebabs",
+                              "Home Food"
+                            ],
+                            "avgRating": 4.4,
+                            "feeDetails": {
+                              "restaurantId": "909837",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "102",
+                            "sla": {
+                              "deliveryTime": 40,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.6 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "25% OFF",
+                              "subHeader": "ABOVE ₹159",
+                              "discountTag": "FLAT DEAL",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "607325",
+                            "name": "Shah Ghouse Dum Biryani",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "bhullar’s-food-company-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "ehbntre8fqbraqqzj7oc",
+                            "locality": "4th Sector",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": ["Biryani", "North Indian", "Snacks"],
+                            "avgRating": 3.8,
+                            "feeDetails": {
+                              "restaurantId": "607325",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "367",
+                            "sla": {
+                              "deliveryTime": 34,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "4.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 04:30:00",
+                              "opened": true
+                            },
+                            "aggregatedDiscountInfo": {},
+                            "badges": {},
+                            "aggregatedDiscountInfoV2": {},
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "119163",
+                            "name": "City durbar",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "city-durbar-jayanagar"
+                            },
+                            "cloudinaryImageId": "hucvda5t3crc9pcemyve",
+                            "locality": "Jayanagar",
+                            "areaName": "Jayanagar",
+                            "costForTwo": "₹450 for two",
+                            "cuisines": ["North Indian", "Chinese", "Biryani"],
+                            "avgRating": 4,
+                            "feeDetails": {
+                              "restaurantId": "119163",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "1.4K+",
+                            "sla": {
+                              "deliveryTime": 43,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "5.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "20% OFF",
+                              "subHeader": "UPTO ₹50",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.9",
+                                "ratingCount": "59"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "981733",
+                            "name": "Tandoori Adda",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "tandoori-adda-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/28/490f50ba-418f-46b4-ad65-bd2255186903_981733.jpg",
+                            "locality": "HSR",
+                            "areaName": "HSR",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                              "Chinese",
+                              "Biryani",
+                              "Arabian",
+                              "Tandoor"
+                            ],
+                            "avgRating": 2.6,
+                            "feeDetails": {
+                              "restaurantId": "981733",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "11",
+                            "sla": {
+                              "deliveryTime": 42,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "214289",
+                            "name": "IBC (Indian Biryani Company)",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "nayyab-biryani-house-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "kyqywiamoxxdms3hzwmy",
+                            "locality": "HSR Layout",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": ["Biryani", "North Indian", "Mughlai"],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "214289",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "1.3K+",
+                            "sla": {
+                              "deliveryTime": 42,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "subHeader": "UPTO ₹75",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.7",
+                                "ratingCount": "21"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "981723",
+                            "name": "Mandi Al Manzil",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "mandi-al-manzil-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/28/b079cd05-70c8-4019-a6a8-2f2dda2927bc_981723.jpg",
+                            "locality": "HSR",
+                            "areaName": "HSR",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                              "Chinese",
+                              "Biryani",
+                              "Arabian",
+                              "Tandoor"
+                            ],
+                            "avgRating": 2.2,
+                            "feeDetails": {
+                              "restaurantId": "981723",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "10",
+                            "sla": {
+                              "deliveryTime": 41,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "980705",
+                            "name": "Chicken County Corner",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "chicken-county-corner-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/25/cce3749b-9357-44f7-90ed-fe01c8170335_980705.jpg",
+                            "locality": "HSR",
+                            "areaName": "HSR",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["Desserts", "Juices"],
+                            "avgRating": 3.7,
+                            "feeDetails": {
+                              "restaurantId": "980705",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "7",
+                            "sla": {
+                              "deliveryTime": 46,
+                              "minDeliveryTime": 45,
+                              "maxDeliveryTime": 50,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "45-50 MINS",
+                              "lastMileTravelString": "4.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-19 00:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "896957",
+                            "name": "Hotel Thirthahalli",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hotel-thirthahalli-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/5/0f0f35f6-b2ad-4f6e-a521-580f79f1c664_896957.ss.jpg",
+                            "locality": "19th Main Road",
+                            "areaName": "HSR",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": ["Indian"],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "896957",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "130",
+                            "sla": {
+                              "deliveryTime": 40,
+                              "minDeliveryTime": 35,
+                              "maxDeliveryTime": 40,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "35-40 MINS",
+                              "lastMileTravelString": "5.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 00:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "50% OFF",
+                              "subHeader": "UPTO ₹100",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "419413",
+                            "name": "Mirchi Maharaj",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "mirchi-maharaj-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "sh5gkksgojqf8jfey6my",
+                            "locality": "HSR Layout",
+                            "areaName": "HSR Layout",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": ["Biryani", "Chinese", "Indian"],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "419413",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "1.1K+",
+                            "sla": {
+                              "deliveryTime": 34,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "4.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 18:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "20% OFF",
+                              "subHeader": "UPTO ₹50",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.9",
+                                "ratingCount": "3.8K+"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "240901",
+                            "name": "U R Military Hotel",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "u-r-military-hotel-btm-btm"
+                            },
+                            "cloudinaryImageId": "xn7deanuo5lzodofffif",
+                            "locality": "1st Stage",
+                            "areaName": "Btm Layout",
+                            "costForTwo": "₹100 for two",
+                            "cuisines": [
+                              "Biryani",
+                              "Andhra",
+                              "South Indian",
+                              "Desserts",
+                              "Kebabs",
+                              "Beverages",
+                              "Kerala",
+                              "Indian"
+                            ],
+                            "avgRating": 4.1,
+                            "feeDetails": {
+                              "restaurantId": "240901",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "2.6K+",
+                            "sla": {
+                              "deliveryTime": 22,
+                              "minDeliveryTime": 20,
+                              "maxDeliveryTime": 25,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "20-25 MINS",
+                              "lastMileTravelString": "1.9 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-13 04:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "30% OFF",
+                              "subHeader": "UPTO ₹70",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "204777",
+                            "name": "Hungry Bird",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hungry-bird-btm-btm"
+                            },
+                            "cloudinaryImageId": "xmqpu6nqcpebdhmkqnkw",
+                            "locality": "BTM Layout",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                              "Andhra",
+                              "Biryani",
+                              "Chinese",
+                              "Indian"
+                            ],
+                            "avgRating": 4.3,
+                            "feeDetails": {
+                              "restaurantId": "204777",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "1.1K+",
+                            "sla": {
+                              "deliveryTime": 28,
+                              "minDeliveryTime": 25,
+                              "maxDeliveryTime": 30,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "25-30 MINS",
+                              "lastMileTravelString": "2.4 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "3.4",
+                                "ratingCount": "62"
+                              },
+                              "source": "GOOGLE",
+                              "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "932099",
+                            "name": "Sri Nandini Andra Restaurant",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "sri-nandini-andra-restaurant-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/25/985c414e-54d2-4b80-9943-8e3fcb758e43_932099.jpg",
+                            "locality": "HSR",
+                            "areaName": "HSR",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["Andhra", "Biryani", "Cafe"],
+                            "avgRating": 2.8,
+                            "feeDetails": {
+                              "restaurantId": "932099",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "8",
+                            "sla": {
+                              "deliveryTime": 41,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.5 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "50% OFF",
+                              "subHeader": "UPTO ₹100",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "336404",
+                            "name": "BIRYANI FLAVOUR HOUSE",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "biryani-flavour-house-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "lgmgvwb4ym0n20im3cpg",
+                            "locality": "2nd Stage",
+                            "areaName": "BTM Layout",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": ["Indian"],
+                            "avgRating": 3.5,
+                            "feeDetails": {
+                              "restaurantId": "336404",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "155",
+                            "sla": {
+                              "deliveryTime": 41,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.2 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-19 00:00:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "557224",
+                            "name": "BIHARI BHOJAN",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "bihari-bhojan-marathahalli-marathahalli"
+                            },
+                            "cloudinaryImageId": "xkdgnolxnhxtcdgnoopz",
+                            "locality": "CROSS POPULAR COOLONY",
+                            "areaName": "Marathahalli",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["Chinese", "Biryani"],
+                            "feeDetails": {
+                              "restaurantId": "557224",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "sla": {
+                              "deliveryTime": 40,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "5.0 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-14 05:01:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "981721",
+                            "name": "Mutton Point",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "mutton-point-hsr-hsr"
+                            },
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/28/b7ab1944-1221-415f-a973-926585947de2_981721.jpg",
+                            "locality": "HSR",
+                            "areaName": "HSR",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": ["Chinese"],
+                            "feeDetails": {
+                              "restaurantId": "981721",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "sla": {
+                              "deliveryTime": 44,
+                              "minDeliveryTime": 40,
+                              "maxDeliveryTime": 45,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "40-45 MINS",
+                              "lastMileTravelString": "4.7 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:59:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "60% OFF",
+                              "subHeader": "UPTO ₹120",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        },
+                        {
+                          "info": {
+                            "id": "687822",
+                            "name": "Hello Tandoor",
+                            "city": "1",
+                            "slugs": {
+                              "restaurant": "hello-tandoor-koramangala-koramangala"
+                            },
+                            "cloudinaryImageId": "7423c03fa94719826e270ef5e291e880",
+                            "locality": "BTM Layout",
+                            "areaName": "Koramangala",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": ["North Indian", "Tandoor", "Biryani"],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                              "restaurantId": "687822",
+                              "title": "Delivery Charge",
+                              "amount": "0"
+                            },
+                            "totalRatingsString": "15",
+                            "sla": {
+                              "deliveryTime": 32,
+                              "minDeliveryTime": 30,
+                              "maxDeliveryTime": 35,
+                              "serviceability": "SERVICEABLE",
+                              "slaString": "30-35 MINS",
+                              "lastMileTravelString": "1.6 km",
+                              "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                              "nextCloseTime": "2025-01-12 23:30:00",
+                              "opened": true
+                            },
+                            "badges": {},
+                            "aggregatedDiscountInfoV3": {
+                              "header": "40% OFF",
+                              "subHeader": "UPTO ₹80",
+                              "logoCtx": {
+                                "text": "BENEFITS"
+                              }
+                            },
+                            "externalRatings": {
+                              "aggregatedRating": {
+                                "rating": "--"
+                              }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                          },
+                          "analytics": {},
+                          "cta": {}
+                        }
+                      ],
+                      "cta": {},
+                      "id": "56861",
+                      "theme": "SEARCH_SIMILAR_RESTAURANTS"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true
+  },
+  "tid": "993eaf35-5ad3-4993-9085-34b48e653b8d",
+  "sid": "ibs5fdc8-f664-4abb-980d-7a1677fec3b1",
+  "deviceId": "2a8af57f-b268-0584-ee90-ef85123baaf0",
+  "csrfToken": "mjcZcgplCVac-2azlRUiXQ27sLy9-KhYBt7Mj0v8"
+}
